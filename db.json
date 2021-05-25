@@ -5,42 +5,42 @@
       "slug": "europa",
       "title": "Europa",
       "subtitle": "O continente mais antigo",
-      "image-url": "/images/europe.png"
+      "imageUrl": "/images/europe.png"
     },
     {
       "id": 2,
       "slug": "america-do-norte",
       "title": "América do norte",
       "subtitle": "Conheça os países",
-      "image-url": "/images/north-america.jpg"
+      "imageUrl": "/images/north-america.jpg"
     },
     {
       "id": 3,
       "slug": "america-do-sul",
       "title": "America do sul",
       "subtitle": "Belezas do novo mundo",
-      "image-url": "/images/south-america.jpg"
+      "imageUrl": "/images/south-america.jpg"
     },
     {
       "id": 4,
       "slug": "asia",
       "title": "Asia",
       "subtitle": "Culturas milenares",
-      "image-url": "/images/asia.jpg"
+      "imageUrl": "/images/asia.jpg"
     },
     {
       "id": 5,
       "slug": "africa",
       "title": "África",
       "subtitle": "Belezas naturais e culturais",
-      "image-url": "/images/africa.jpg"
+      "imageUrl": "/images/africa.jpg"
     },
     {
       "id": 6,
       "slug": "oceania",
       "title": "Oceania",
       "subtitle": "Esportes radicais e cidades incríveis",
-      "image-url": "/images/oceania.jpg"
+      "imageUrl": "/images/oceania.jpg"
     }
   ],
   "cities": [

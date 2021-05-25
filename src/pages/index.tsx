@@ -1,40 +1,32 @@
 import { Center, Divider, Flex, Heading, Icon, Stack, Text } from "@chakra-ui/react";
+import { GetStaticProps } from "next";
 import { GiCapitol, GiCongress, GiEarthAmerica, GiMartini, GiSurfBoard } from "react-icons/gi";
 import { Banner } from "../components/Banner";
 import { Header } from "../components/Header";
+import { IconList } from "../components/IconList";
 import { Slider } from "../components/Slider";
+import { api } from "../services/api";
 
+interface HomeProps {
+  continents: Continent[];
+}
 
+type Continent = {
+  id: number;
+  slug: string;
+  title: string;
+  subtitle: string;
+  imageUrl: string;
 
-export default function Home() {
+}
+
+export default function Home({ continents }: HomeProps) {
+
   return (
     <Flex w="100%" direction="column" align="center" justify="center" marginBottom="8">
       <Header />
       <Banner />
-
-      <Stack direction="row" w="100%" align="center" justify="space-between" maxW={1160} my="20" >
-        <Flex direction="column" align="center" justify="center">
-          <Icon as={GiMartini} fontSize={84} color="highlight.highlight"/>
-          <Text mt="4" fontSize="24" fontWeight="semibold">vida noturna</Text>
-        </Flex>
-        <Flex direction="column" align="center" justify="center">
-          <Icon as={GiSurfBoard} fontSize={84} color="highlight.highlight"/>
-          <Text mt="4" fontSize="24" fontWeight="semibold">praia</Text>
-        </Flex>
-        <Flex direction="column" align="center" justify="center">
-          <Icon as={GiCapitol} fontSize={84} color="highlight.highlight"/>
-          <Text mt="4" fontSize="24" fontWeight="semibold">moderno</Text>
-        </Flex>
-        <Flex direction="column" align="center" justify="center">
-          <Icon as={GiCongress} fontSize={84} color="highlight.highlight"/>
-          <Text mt="4" fontSize="24" fontWeight="semibold">clássico</Text>
-        </Flex>
-        <Flex direction="column" align="center" justify="center">
-          <Icon as={GiEarthAmerica} fontSize={84} color="highlight.highlight"/>
-          <Text mt="4" fontSize="24" fontWeight="semibold">e mais...</Text>
-        </Flex>
-      </Stack>
-
+      <IconList />
       <Divider
         w="20"
         mb="20"
@@ -48,9 +40,18 @@ export default function Home() {
         Vamos nessa?<br/>
         Então escolha seu continente
       </Heading>
-      <Slider />
+      <Slider continents={continents}/>
     </Flex>
   )
 }
 
+export const getStaticProps: GetStaticProps = async () => {
+  const response = await api.get('/continents')
+    const continents = response.data
 
+    return {
+      props: {
+        continents
+      }
+    }
+}
