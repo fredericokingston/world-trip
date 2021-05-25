@@ -1,4 +1,4 @@
-import { Center, Divider, Flex, Icon, Stack, Text } from "@chakra-ui/react";
+import { Center, Divider, Flex, Heading, Icon, Stack, Text } from "@chakra-ui/react";
 import { GiCapitol, GiCongress, GiEarthAmerica, GiMartini, GiSurfBoard } from "react-icons/gi";
 import { Banner } from "../components/Banner";
 import { Header } from "../components/Header";
@@ -43,7 +43,11 @@ export default function Home() {
         borderBottomWidth={4}
         borderRadius={2}
       />
-
+      
+      <Heading as="h2" textAlign="center" mb="12" fontWeight="medium">
+        Vamos nessa?<br/>
+        Então escolha seu continente
+      </Heading>
       <Slider />
     </Flex>
   )

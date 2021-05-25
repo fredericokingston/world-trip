@@ -1,7 +1,14 @@
 import { ChakraProvider } from "@chakra-ui/react";
-import Head from 'next/head'
+import Head from 'next/head';
 import { theme } from "../styles/theme";
-import './swiperStyles.css';
+
+// Import Swiper styles
+import "swiper/components/navigation/navigation.min.css";
+import "swiper/components/pagination/pagination.min.css";
+import "swiper/swiper.min.css";
+
+import '../styles/swiperStyles.scss';
+
 
 function MyApp({ Component, pageProps }) {
   return (
