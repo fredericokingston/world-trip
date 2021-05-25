@@ -9,6 +9,7 @@ export const theme = extendTheme({
   colors: {
     highlight: {
       "highlight": "#FFBA08",
+      "highlight.200": "#ffdb7d",
     },
     dark: {
       "black": "#000000",
