@@ -14,12 +14,10 @@ interface SliderProps {
 }
 
 type Continent = {
-  id: number;
-  slug: string;
+  id: string;
   title: string;
   subtitle: string;
-  imageUrl: string;
-
+  continentImage: string;
 }
 
 export function Slider({ continents }: SliderProps) {
@@ -42,13 +40,13 @@ export function Slider({ continents }: SliderProps) {
               align="center"
               justify="center"
               direction="column"
-              bgImage={continent.imageUrl}
+              bgImage={continent.continentImage}
               bgPosition="100% 30%"
               bgRepeat="no-repeat"
               bgSize="cover"
               textAlign="center"
             >
-              <Link href={`/continent/${continent.slug}`}>
+              <Link href={`/continent/${continent.id}`}>
                 <a>
                   <Heading fontSize={["3xl","4xl","5xl"]} color="gray.100" fontWeight="bold">{continent.title}</Heading>
                   <Text fontWeight="bold" color="gray.300" fontSize={["0.8rem","1xl", "2xl"]} mt={["2","4"]}>{continent.subtitle}</Text>

@@ -1,12 +1,17 @@
 import { Box, Flex, Heading } from "@chakra-ui/react";
 
-export function BannerContinent() {
+interface BannerContinentProps {
+  title: string;
+  bannerImage: string;
+}
+
+export function BannerContinent({ title, bannerImage }: BannerContinentProps) {
   return (
     <Flex
       as="section"
       w="100%"
       h="500"
-      bgImg="/images/europe-banner.png"
+      bgImg={bannerImage}
       objectFit="cover"
       bgPosition="center"
       align="center"
@@ -19,7 +24,7 @@ export function BannerContinent() {
           color="light.headings-and-text"
           fontWeight="semibold"
         >
-          Europa
+          {title}
         </Heading>
       </Flex>
       

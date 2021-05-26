@@ -1,55 +1,203 @@
 {
   "continents": [
-    {
-      "id": 1,
-      "slug": "europa",
-      "title": "Europa",
-      "subtitle": "O continente mais antigo",
-      "imageUrl": "/images/europe.png"
-    },
-    {
-      "id": 2,
-      "slug": "america-do-norte",
-      "title": "América do norte",
-      "subtitle": "Conheça os países",
-      "imageUrl": "/images/north-america.jpg"
-    },
-    {
-      "id": 3,
-      "slug": "america-do-sul",
-      "title": "America do sul",
-      "subtitle": "Belezas do novo mundo",
-      "imageUrl": "/images/south-america.jpg"
-    },
-    {
-      "id": 4,
-      "slug": "asia",
-      "title": "Asia",
-      "subtitle": "Culturas milenares",
-      "imageUrl": "/images/asia.jpg"
-    },
-    {
-      "id": 5,
-      "slug": "africa",
-      "title": "África",
-      "subtitle": "Belezas naturais e culturais",
-      "imageUrl": "/images/africa.jpg"
-    },
-    {
-      "id": 6,
-      "slug": "oceania",
-      "title": "Oceania",
-      "subtitle": "Esportes radicais e cidades incríveis",
-      "imageUrl": "/images/oceania.jpg"
-    }
-  ],
-  "cities": [
-    {
-      "continent-id": 1,
-      "city": "Londres",
-      "country-name": "Reino Unido",
-      "city-image": "/images/europe-banner.png",
-      "country-flag": "/images/europe-banner.png"
-    }
+      {
+          "id": "europe", 
+          "title": "Europa",
+          "subtitle": "Esportes radicais e cidades incríveis",
+          "continentImage": "/images/europe-banner.png",
+          "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+          "countries": 55,
+          "languages": 60,
+          "hundreadPlus": [
+              {
+                  "id": 1, 
+                  "name": "Londres", 
+                  "country": "Reino Unido", 
+                  "image": "/images/europe.png",
+                  "countryIcon": "/images/europe.png"
+              },
+              {
+                  "id": 2, 
+                  "name": "Paris", 
+                  "country": "França", 
+                  "image": "/images/europe.png",
+                  "countryIcon": "/images/europe.png"
+              },
+              {
+                  "id": 3, 
+                  "name": "Roma", 
+                  "country": "Itália", 
+                  "image": "/images/europe.png",
+                  "countryIcon": "/images/europe.png"
+              },
+              {
+                  "id": 4, 
+                  "name": "Praga", 
+                  "country": "República Tcheca", 
+                  "image": "/images/europe.png",
+                  "countryIcon": "/images/europe.png"
+              },
+              {
+                  "id": 5, 
+                  "name": "Amsterdã", 
+                  "country": "Holanda", 
+                  "image": "/assets/details/hundreadPlus/amsterda.png",
+                  "countryIcon": "/assets/details/hundreadPlus/icons/holanda.png"
+              }
+          ]
+      },
+
+      {
+          "id": "america", 
+          "title": "América",
+          "subtitle": "Esportes radicais e cidades incríveis",
+          "continentImage": "/images/europe.png",
+          "description": "A américa Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et egestas elit, laoreet congue sem. Quisque sed blandit tellus, sagittis malesuada nisi. Fusce a mollis felis. Cras vel tellus molestie, sagittis leo ultrices, convallis velit. Donec nec convallis enim. Pellentesque tempus, sapien quis volutpat pulvinar, felis odio pellentesque urna, non suscipit velit mauris vitae lorem. Curabitur ut leo arcu. Fusce vel posuere arcu. Integer pellentesque vitae augue nec fermentum.",
+          "countries": 40,
+          "languages": 12,
+          "hundreadPlus": [
+              {
+                  "id": 6, 
+                  "name": "Nova Iórque", 
+                  "country": "Estados Unidos", 
+                  "image": "/assets/details/hundreadPlus/londres.png",
+                  "countryIcon": "/assets/details/hundreadPlus/icons/reinoUnido.png"
+              },
+              {
+                  "id": 7, 
+                  "name": "Rio de Janeiro", 
+                  "country": "Brasil", 
+                  "image": "/assets/details/hundreadPlus/paris.png",
+                  "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+              },
+              {
+                  "id": 8, 
+                  "name": "São Paulo", 
+                  "country": "Brasil", 
+                  "image": "/assets/details/hundreadPlus/roma.png",
+                  "countryIcon": "/assets/details/hundreadPlus/icons/italia.png"
+              },
+              {
+                  "id": 9, 
+                  "name": "Buenos Aires", 
+                  "country": "Argentina", 
+                  "image": "/assets/details/hundreadPlus/praga.png",
+                  "countryIcon": "/assets/details/hundreadPlus/icons/republicaTcheca.png"
+              }
+          ]
+      },
+
+      {
+          "id": "asia", 
+          "title": "Ásia",
+          "subtitle": "Esportes radicais e cidades incríveis",
+          "continentImage": "/images/europe.png",
+          "description": "A Ásia Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et egestas elit, laoreet congue sem. Quisque sed blandit tellus, sagittis malesuada nisi. Fusce a mollis felis. Cras vel tellus molestie, sagittis leo ultrices, convallis velit. Donec nec convallis enim. Pellentesque tempus, sapien quis volutpat pulvinar, felis odio pellentesque urna, non suscipit velit mauris vitae lorem. Curabitur ut leo arcu. Fusce vel posuere arcu. Integer pellentesque vitae augue nec fermentum.",
+          "countries": 80,
+          "languages": 95,
+          "hundreadPlus": [
+              {
+                  "id": 10, 
+                  "name": "Tóquio", 
+                  "country": "Japão", 
+                  "image": "/assets/details/hundreadPlus/londres.png",
+                  "countryIcon": "/assets/details/hundreadPlus/icons/reinoUnido.png"
+              },
+              {
+                  "id": 11, 
+                  "name": "Seul", 
+                  "country": "Coréia do sul", 
+                  "image": "/assets/details/hundreadPlus/paris.png",
+                  "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+              },
+              {
+                  "id": 12, 
+                  "name": "Hong Kong", 
+                  "country": "China", 
+                  "image": "/assets/details/hundreadPlus/roma.png",
+                  "countryIcon": "/assets/details/hundreadPlus/icons/italia.png"
+              },
+              {
+                  "id": 13, 
+                  "name": "Xangai", 
+                  "country": "China", 
+                  "image": "/assets/details/hundreadPlus/praga.png",
+                  "countryIcon": "/assets/details/hundreadPlus/icons/republicaTcheca.png"
+              },
+              {
+                  "id": 14, 
+                  "name": "Nova Dehli", 
+                  "country": "India", 
+                  "image": "/assets/details/hundreadPlus/praga.png",
+                  "countryIcon": "/assets/details/hundreadPlus/icons/republicaTcheca.png"
+              }
+          ]
+      },
+
+      {
+          "id": "africa", 
+          "title": "África",
+          "subtitle": "Esportes radicais e cidades incríveis",
+          "continentImage": "/images/europe.png",
+          "description": "A África Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et egestas elit, laoreet congue sem. Quisque sed blandit tellus, sagittis malesuada nisi. Fusce a mollis felis. Cras vel tellus molestie, sagittis leo ultrices, convallis velit. Donec nec convallis enim. Pellentesque tempus, sapien quis volutpat pulvinar, felis odio pellentesque urna, non suscipit velit mauris vitae lorem. Curabitur ut leo arcu. Fusce vel posuere arcu. Integer pellentesque vitae augue nec fermentum.",
+          "countries": 70,
+          "languages": 60,
+          "hundreadPlus": [
+              {
+                  "id": 15, 
+                  "name": "Cidade do Cabo", 
+                  "country": "África do Sul", 
+                  "image": "/assets/details/hundreadPlus/londres.png",
+                  "countryIcon": "/assets/details/hundreadPlus/icons/reinoUnido.png"
+              },
+              {
+                  "id": 16, 
+                  "name": "Cairo", 
+                  "country": "Egito", 
+                  "image": "/assets/details/hundreadPlus/paris.png",
+                  "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+              },
+              {
+                  "id": 17, 
+                  "name": "Johannesburgo", 
+                  "country": "África do Sul", 
+                  "image": "/assets/details/hundreadPlus/paris.png",
+                  "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+              }
+          ]
+      },
+
+      {
+          "id": "oceania", 
+          "title": "Oceania",
+          "subtitle": "Esportes radicais e cidades incríveis",
+          "continentImage": "/images/europe.png",
+          "description": "A Oceania Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et egestas elit, laoreet congue sem. Quisque sed blandit tellus, sagittis malesuada nisi. Fusce a mollis felis. Cras vel tellus molestie, sagittis leo ultrices, convallis velit. Donec nec convallis enim. Pellentesque tempus, sapien quis volutpat pulvinar, felis odio pellentesque urna, non suscipit velit mauris vitae lorem. Curabitur ut leo arcu. Fusce vel posuere arcu. Integer pellentesque vitae augue nec fermentum.",
+          "countries": 20,
+          "languages": 22,
+          "hundreadPlus": [
+              {
+                  "id": 18, 
+                  "name": "Sidney", 
+                  "country": "Austrália", 
+                  "image": "/assets/details/hundreadPlus/londres.png",
+                  "countryIcon": "/assets/details/hundreadPlus/icons/reinoUnido.png"
+              },
+              {
+                  "id": 19, 
+                  "name": "Camberra", 
+                  "country": "Austrália", 
+                  "image": "/assets/details/hundreadPlus/paris.png",
+                  "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+              },
+              {
+                  "id": 20, 
+                  "name": "Wellington", 
+                  "country": "Nova zelândia", 
+                  "image": "/assets/details/hundreadPlus/paris.png",
+                  "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+              }
+          ]
+      }
   ]
 }

@@ -1,14 +1,36 @@
-import { Box, Flex, Heading, HStack, SimpleGrid, Image as ChakraImage, Text } from "@chakra-ui/react";
-import Image from "next/image";
-import { BannerContinent } from "../../components/BannerContinent";
-import { Header } from '../../components/Header'
+import { Box, Flex, Heading, HStack, Image as ChakraImage, SimpleGrid, Text } from "@chakra-ui/react";
+import { GetStaticPaths, GetStaticProps } from "next";
 
-export default function Continent() {
+import { BannerContinent } from "../../components/BannerContinent";
+import { Header } from '../../components/Header';
+import { api } from "../../services/api";
+
+interface HundreadPlusProps {
+  id: number,
+  name: string,
+  country: string,
+  image: string,
+  countryIcon: string
+}
+
+interface ContinentProps {
+  data: {
+      id: string,
+      title: string,
+      continentImage: string;
+      description: string
+      countries: number,
+      languages: number,
+      hundreadPlus: HundreadPlusProps[]
+  }
+}
+
+export default function Continent({ data }: ContinentProps) {
 
   return (
     <Flex w="100%" direction="column" align="center" justify="center" marginBottom="8">
       <Header />
-      <BannerContinent />
+      <BannerContinent title={data.title} bannerImage={data.continentImage}/>
       
       <Flex
         as="section"
@@ -98,4 +120,24 @@ export default function Continent() {
         </Flex>
     </Flex>
   );
+}
+
+export const getStaticPaths: GetStaticPaths = async () => {
+ 
+  return {
+    paths: [],
+    fallback: true,
+  };
+};
+
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const { id } = params;
+  const { data } = await api.get(`/continents/${id}`);
+ 
+  console.log(data)
+  return {
+    props: {
+      data
+    }
+  }
 }
