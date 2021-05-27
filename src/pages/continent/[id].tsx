@@ -79,43 +79,46 @@ export default function Continent({ data }: ContinentProps) {
           </Heading>
 
           <SimpleGrid columns={[1, 2, 4]} spacing={46} mx="auto">
-
-            <Box
-              maxW={256}
-              bg="white"
-              borderWidth="1px"
-              borderRadius="lg"
-              borderColor="highlight.highlight.200"
-              overflow="hidden"
-            >
-              <ChakraImage src="/images/card-image.png" alt="" w="100%"/>
-              <Flex p="6" flexDir="row" align="center" justify="space-between">
-                <Box>
-                  <Box
-                    fontFamily="barlow"
-                    fontSize="20"
-                    fontWeight="semibold"
-                    as="h4"
-                    lineHeight="tight"
-                    isTruncated
-                  >
-                    Londres
+            { data.hundreadPlus.map(city => (
+                <Box
+                key={city.id}
+                maxW={256}
+                bg="white"
+                borderWidth="1px"
+                borderRadius="lg"
+                borderColor="highlight.highlight.200"
+                overflow="hidden"
+              >
+                <ChakraImage src={city.image} alt="" w="100%"/>
+                <Flex p="6" flexDir="row" align="center" justify="space-between">
+                  <Box>
+                    <Box
+                      fontFamily="barlow"
+                      fontSize="20"
+                      fontWeight="semibold"
+                      as="h4"
+                      lineHeight="tight"
+                      isTruncated
+                    >
+                      {city.name}
+                    </Box>
+                    <Box
+                      mt="3"
+                      fontFamily="barlow"
+                      fontWeight="medium"
+                      color="dark.info"
+                      as="h4"
+                      lineHeight="tight"
+                      isTruncated
+                    >
+                      {city.country}
+                    </Box>
                   </Box>
-                  <Box
-                    mt="3"
-                    fontFamily="barlow"
-                    fontWeight="medium"
-                    color="dark.info"
-                    as="h4"
-                    lineHeight="tight"
-                    isTruncated
-                  >
-                    Reino Unido
-                  </Box>
-                </Box>
-                <ChakraImage src="/images/card-image.png" alt="" w={30} h={30} borderRadius="15" />
-              </Flex>
-            </Box>
+                  <ChakraImage src={city.countryIcon} alt="" w={30} h={30} borderRadius="15" />
+                </Flex>
+              </Box>
+            ))}
+            
           </SimpleGrid>
         </Flex>
     </Flex>
@@ -123,9 +126,14 @@ export default function Continent({ data }: ContinentProps) {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
- 
+  const response = await api.get('/continents')
+  const continents = response.data
+
+  const paths = continents.map((continent) => ({
+    params: { id: continent.id}
+  }))
   return {
-    paths: [],
+    paths,
     fallback: true,
   };
 };

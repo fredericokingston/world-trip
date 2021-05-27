@@ -41,8 +41,8 @@
                   "id": 5, 
                   "name": "Amsterdã", 
                   "country": "Holanda", 
-                  "image": "/assets/details/hundreadPlus/amsterda.png",
-                  "countryIcon": "/assets/details/hundreadPlus/icons/holanda.png"
+                  "image": "/images/europe.png",
+                  "countryIcon": "/images/europe.png"
               }
           ]
       },
