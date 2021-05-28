@@ -14,84 +14,123 @@
                   "name": "Londres", 
                   "country": "Reino Unido", 
                   "image": "/images/europe.png",
-                  "countryIcon": "/images/europe.png"
+                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom.svg#/media/Ficheiro:Flag_of_the_United_Kingdom.svg"
               },
               {
                   "id": 2, 
                   "name": "Paris", 
                   "country": "França", 
-                  "image": "/images/europe.png",
-                  "countryIcon": "/images/europe.png"
+                  "image": "https://unsplash.com/photos/R5scocnOOdM",
+                  "countryIcon": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
               },
               {
                   "id": 3, 
                   "name": "Roma", 
                   "country": "Itália", 
-                  "image": "/images/europe.png",
-                  "countryIcon": "/images/europe.png"
+                  "image": "https://unsplash.com/photos/uaOZwQ4PPUM",
+                  "countryIcon": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg"
               },
               {
                   "id": 4, 
                   "name": "Praga", 
                   "country": "República Tcheca", 
-                  "image": "/images/europe.png",
-                  "countryIcon": "/images/europe.png"
+                  "image": "https://unsplash.com/photos/t3xftjxc2uU",
+                  "countryIcon": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg"
               },
               {
                   "id": 5, 
                   "name": "Amsterdã", 
                   "country": "Holanda", 
                   "image": "/images/europe.png",
-                  "countryIcon": "/images/europe.png"
+                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Netherlands.svg#/media/Ficheiro:Flag_of_the_Netherlands.svg"
               }
           ]
       },
 
       {
-          "id": "america", 
-          "title": "América",
+          "id": "america-do-sul", 
+          "title": "América do Sul",
           "subtitle": "Esportes radicais e cidades incríveis",
-          "continentImage": "/images/europe.png",
+          "continentImage": "/images/south-america.jpg",
           "description": "A américa Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et egestas elit, laoreet congue sem. Quisque sed blandit tellus, sagittis malesuada nisi. Fusce a mollis felis. Cras vel tellus molestie, sagittis leo ultrices, convallis velit. Donec nec convallis enim. Pellentesque tempus, sapien quis volutpat pulvinar, felis odio pellentesque urna, non suscipit velit mauris vitae lorem. Curabitur ut leo arcu. Fusce vel posuere arcu. Integer pellentesque vitae augue nec fermentum.",
           "countries": 40,
           "languages": 12,
           "hundreadPlus": [
               {
                   "id": 6, 
-                  "name": "Nova Iórque", 
-                  "country": "Estados Unidos", 
-                  "image": "/assets/details/hundreadPlus/londres.png",
-                  "countryIcon": "/assets/details/hundreadPlus/icons/reinoUnido.png"
+                  "name": "Fortaleza", 
+                  "country": "Brasil", 
+                  "image": "https://unsplash.com/photos/41c0oqippBo",
+                  "countryIcon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg"
               },
               {
                   "id": 7, 
                   "name": "Rio de Janeiro", 
                   "country": "Brasil", 
-                  "image": "/assets/details/hundreadPlus/paris.png",
-                  "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+                  "image": "https://unsplash.com/photos/7F65HDP0-E0",
+                  "countryIcon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg"
               },
               {
                   "id": 8, 
-                  "name": "São Paulo", 
-                  "country": "Brasil", 
-                  "image": "/assets/details/hundreadPlus/roma.png",
-                  "countryIcon": "/assets/details/hundreadPlus/icons/italia.png"
+                  "name": "Montevideo", 
+                  "country": "Uruguai", 
+                  "image": "https://unsplash.com/photos/B9YoUi7RYiE",
+                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_Uruguay.svg#/media/Ficheiro:Flag_of_Uruguay.svg"
               },
               {
                   "id": 9, 
                   "name": "Buenos Aires", 
                   "country": "Argentina", 
-                  "image": "/assets/details/hundreadPlus/praga.png",
-                  "countryIcon": "/assets/details/hundreadPlus/icons/republicaTcheca.png"
+                  "image": "https://unsplash.com/photos/Wlgn4naRxWQ",
+                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_Argentina.svg#/media/Ficheiro:Flag_of_Argentina.svg"
               }
           ]
       },
+      {
+        "id": "america-do-norte", 
+        "title": "América do Norte",
+        "subtitle": "Esportes radicais e cidades incríveis",
+        "continentImage": "/images/north-america.jpg",
+        "description": "A américa Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et egestas elit, laoreet congue sem. Quisque sed blandit tellus, sagittis malesuada nisi. Fusce a mollis felis. Cras vel tellus molestie, sagittis leo ultrices, convallis velit. Donec nec convallis enim. Pellentesque tempus, sapien quis volutpat pulvinar, felis odio pellentesque urna, non suscipit velit mauris vitae lorem. Curabitur ut leo arcu. Fusce vel posuere arcu. Integer pellentesque vitae augue nec fermentum.",
+        "countries": 40,
+        "languages": 12,
+        "hundreadPlus": [
+            {
+                "id": 6, 
+                "name": "Chicago", 
+                "country": "Estados Unidos", 
+                "image": "https://unsplash.com/photos/Nyvq2juw4_o",
+                "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg#/media/Ficheiro:Flag_of_the_United_States.svg"
+            },
+            {
+                "id": 7, 
+                "name": "Toronto", 
+                "country": "Canadá", 
+                "image": "https://unsplash.com/photos/gOq27RHoL3s",
+                "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_Canada_(Pantone).svg#/media/Ficheiro:Flag_of_Canada_(Pantone).svg"
+            },
+            {
+                "id": 8, 
+                "name": "Vancouver", 
+                "country": "Canadá", 
+                "image": "https://unsplash.com/photos/2yN10KHNTzM",
+                "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_Canada_(Pantone).svg#/media/Ficheiro:Flag_of_Canada_(Pantone).svg"
+            },
+            {
+                "id": 9, 
+                "name": "Los Angeles", 
+                "country": "Estados Unidos", 
+                "image": "https://unsplash.com/photos/cR05i3WgRlQ",
+                "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg#/media/Ficheiro:Flag_of_the_United_States.svg"
+            }
+        ]
+    },
 
       {
           "id": "asia", 
           "title": "Ásia",
           "subtitle": "Esportes radicais e cidades incríveis",
-          "continentImage": "/images/europe.png",
+          "continentImage": "/images/asia.jpg",
           "description": "A Ásia Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et egestas elit, laoreet congue sem. Quisque sed blandit tellus, sagittis malesuada nisi. Fusce a mollis felis. Cras vel tellus molestie, sagittis leo ultrices, convallis velit. Donec nec convallis enim. Pellentesque tempus, sapien quis volutpat pulvinar, felis odio pellentesque urna, non suscipit velit mauris vitae lorem. Curabitur ut leo arcu. Fusce vel posuere arcu. Integer pellentesque vitae augue nec fermentum.",
           "countries": 80,
           "languages": 95,
@@ -100,36 +139,36 @@
                   "id": 10, 
                   "name": "Tóquio", 
                   "country": "Japão", 
-                  "image": "/assets/details/hundreadPlus/londres.png",
-                  "countryIcon": "/assets/details/hundreadPlus/icons/reinoUnido.png"
+                  "image": "https://unsplash.com/photos/6WoJXG_dJAE",
+                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan.svg#/media/Ficheiro:Flag_of_Japan.svg"
               },
               {
                   "id": 11, 
                   "name": "Seul", 
                   "country": "Coréia do sul", 
-                  "image": "/assets/details/hundreadPlus/paris.png",
-                  "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+                  "image": "https://unsplash.com/photos/wepDTOWs4d0",
+                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg#/media/Ficheiro:Flag_of_South_Korea.svg"
               },
               {
                   "id": 12, 
                   "name": "Hong Kong", 
                   "country": "China", 
-                  "image": "/assets/details/hundreadPlus/roma.png",
-                  "countryIcon": "/assets/details/hundreadPlus/icons/italia.png"
+                  "image": "https://unsplash.com/photos/qEWEz-U5p8Q",
+                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg#/media/Ficheiro:Flag_of_the_People's_Republic_of_China.svg"
               },
               {
                   "id": 13, 
                   "name": "Xangai", 
                   "country": "China", 
-                  "image": "/assets/details/hundreadPlus/praga.png",
-                  "countryIcon": "/assets/details/hundreadPlus/icons/republicaTcheca.png"
+                  "image": "https://unsplash.com/photos/5h_dMuX_7RE",
+                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg#/media/Ficheiro:Flag_of_the_People's_Republic_of_China.svg"
               },
               {
                   "id": 14, 
                   "name": "Nova Dehli", 
                   "country": "India", 
-                  "image": "/assets/details/hundreadPlus/praga.png",
-                  "countryIcon": "/assets/details/hundreadPlus/icons/republicaTcheca.png"
+                  "image": "https://unsplash.com/photos/iJHrggDUzBw",
+                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_India.svg#/media/Ficheiro:Flag_of_India.svg"
               }
           ]
       },
@@ -138,7 +177,7 @@
           "id": "africa", 
           "title": "África",
           "subtitle": "Esportes radicais e cidades incríveis",
-          "continentImage": "/images/europe.png",
+          "continentImage": "/images/africa.jpg",
           "description": "A África Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et egestas elit, laoreet congue sem. Quisque sed blandit tellus, sagittis malesuada nisi. Fusce a mollis felis. Cras vel tellus molestie, sagittis leo ultrices, convallis velit. Donec nec convallis enim. Pellentesque tempus, sapien quis volutpat pulvinar, felis odio pellentesque urna, non suscipit velit mauris vitae lorem. Curabitur ut leo arcu. Fusce vel posuere arcu. Integer pellentesque vitae augue nec fermentum.",
           "countries": 70,
           "languages": 60,
@@ -147,22 +186,22 @@
                   "id": 15, 
                   "name": "Cidade do Cabo", 
                   "country": "África do Sul", 
-                  "image": "/assets/details/hundreadPlus/londres.png",
-                  "countryIcon": "/assets/details/hundreadPlus/icons/reinoUnido.png"
+                  "image": "https://unsplash.com/photos/jtKoHDO-ihg",
+                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa.svg#/media/Ficheiro:Flag_of_South_Africa.svg"
               },
               {
                   "id": 16, 
                   "name": "Cairo", 
                   "country": "Egito", 
-                  "image": "/assets/details/hundreadPlus/paris.png",
-                  "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+                  "image": "https://unsplash.com/photos/pwMbtwA9LRc",
+                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_Egypt.svg#/media/Ficheiro:Flag_of_Egypt.svg"
               },
               {
                   "id": 17, 
                   "name": "Johannesburgo", 
                   "country": "África do Sul", 
-                  "image": "/assets/details/hundreadPlus/paris.png",
-                  "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+                  "image": "https://unsplash.com/photos/f0RvpwF-iXE",
+                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa.svg#/media/Ficheiro:Flag_of_South_Africa.svg"
               }
           ]
       },
@@ -171,7 +210,7 @@
           "id": "oceania", 
           "title": "Oceania",
           "subtitle": "Esportes radicais e cidades incríveis",
-          "continentImage": "/images/europe.png",
+          "continentImage": "/images/oceania.jpg",
           "description": "A Oceania Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et egestas elit, laoreet congue sem. Quisque sed blandit tellus, sagittis malesuada nisi. Fusce a mollis felis. Cras vel tellus molestie, sagittis leo ultrices, convallis velit. Donec nec convallis enim. Pellentesque tempus, sapien quis volutpat pulvinar, felis odio pellentesque urna, non suscipit velit mauris vitae lorem. Curabitur ut leo arcu. Fusce vel posuere arcu. Integer pellentesque vitae augue nec fermentum.",
           "countries": 20,
           "languages": 22,
@@ -180,22 +219,22 @@
                   "id": 18, 
                   "name": "Sidney", 
                   "country": "Austrália", 
-                  "image": "/assets/details/hundreadPlus/londres.png",
-                  "countryIcon": "/assets/details/hundreadPlus/icons/reinoUnido.png"
+                  "image": "https://unsplash.com/photos/DLbCETd599Y",
+                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_Australia_(converted).svg#/media/Ficheiro:Flag_of_Australia_(converted).svg"
               },
               {
                   "id": 19, 
                   "name": "Camberra", 
                   "country": "Austrália", 
-                  "image": "/assets/details/hundreadPlus/paris.png",
-                  "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+                  "image": "https://unsplash.com/photos/P-t9yap_20M",
+                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_Australia_(converted).svg#/media/Ficheiro:Flag_of_Australia_(converted).svg"
               },
               {
                   "id": 20, 
                   "name": "Wellington", 
                   "country": "Nova zelândia", 
-                  "image": "/assets/details/hundreadPlus/paris.png",
-                  "countryIcon": "/assets/details/hundreadPlus/icons/franca.png"
+                  "image": "https://unsplash.com/photos/KRtXOMfS4oA",
+                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_New_Zealand.svg#/media/Ficheiro:Flag_of_New_Zealand.svg"
               }
           ]
       }

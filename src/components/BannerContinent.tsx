@@ -10,17 +10,19 @@ export function BannerContinent({ title, bannerImage }: BannerContinentProps) {
     <Flex
       as="section"
       w="100%"
-      h="500"
+      h={["150", "500"]}
       bgImg={bannerImage}
       objectFit="cover"
       bgPosition="center"
       align="center"
       justify="center"
-      py="20"
+      py={["10", "20"]}
     >
-      <Flex w="100%" h="100%" maxW={1160} align="flex-end">
+      <Flex w="100%" h="100%" align={["center", "flex-end"]} maxW={1160}>
         <Heading
-          fontSize="48"
+          fontSize={["30", "48"]}
+          mx={["auto", 0]}
+          textAlign={["center", "left"]}
           color="light.headings-and-text"
           fontWeight="semibold"
         >

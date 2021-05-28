@@ -21,20 +21,23 @@ type Continent = {
 export default function Home({ continents }: HomeProps) {
 
   return (
-    <Flex w="100%" direction="column" align="center" justify="center" marginBottom="8">
+    <Flex w="100%" direction="column" align="center" justify="center" marginBottom="2">
       <Header />
+
       <Banner />
+
       <IconList />
+
       <Divider
         w="20"
-        mb="20"
+        my={["12", "20"]}
         orientation="horizontal"
         borderColor="dark.headings-and-text"
-        borderBottomWidth={4}
+        borderBottomWidth={2}
         borderRadius={2}
       />
       
-      <Heading as="h2" textAlign="center" mb="12" fontWeight="medium">
+      <Heading as="h2" fontSize={["20", "30"]} textAlign="center" mb={["8", "12"]} fontWeight="medium">
         Vamos nessa?<br/>
         Então escolha seu continente
       </Heading>
