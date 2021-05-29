@@ -14,35 +14,35 @@
                   "name": "Londres", 
                   "country": "Reino Unido", 
                   "image": "/images/europe.png",
-                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom.svg#/media/Ficheiro:Flag_of_the_United_Kingdom.svg"
+                  "countryIcon": "/flags/flag-united-kingdom.png"
               },
               {
                   "id": 2, 
                   "name": "Paris", 
                   "country": "França", 
-                  "image": "https://unsplash.com/photos/R5scocnOOdM",
-                  "countryIcon": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+                  "image": "/images/paris.jpg",
+                  "countryIcon": "/flags/flag-france.svg"
               },
               {
                   "id": 3, 
                   "name": "Roma", 
                   "country": "Itália", 
-                  "image": "https://unsplash.com/photos/uaOZwQ4PPUM",
-                  "countryIcon": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg"
+                  "image": "/images/rome.jpg",
+                  "countryIcon": "/flags/flag-italy.svg"
               },
               {
                   "id": 4, 
                   "name": "Praga", 
                   "country": "República Tcheca", 
-                  "image": "https://unsplash.com/photos/t3xftjxc2uU",
-                  "countryIcon": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg"
+                  "image": "/images/praga.jpg",
+                  "countryIcon": "/flags/Flag_of_the_Czech_Republic.svg"
               },
               {
                   "id": 5, 
                   "name": "Amsterdã", 
                   "country": "Holanda", 
-                  "image": "/images/europe.png",
-                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Netherlands.svg#/media/Ficheiro:Flag_of_the_Netherlands.svg"
+                  "image": "/images/amsterdam.jpg",
+                  "countryIcon": "/flags/Flag_of_the_Netherlands.svg"
               }
           ]
       },
@@ -60,29 +60,29 @@
                   "id": 6, 
                   "name": "Fortaleza", 
                   "country": "Brasil", 
-                  "image": "https://unsplash.com/photos/41c0oqippBo",
-                  "countryIcon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg"
+                  "image": "/images/fortaleza.jpg",
+                  "countryIcon": "/flags/flag-brazil.svg"
               },
               {
                   "id": 7, 
                   "name": "Rio de Janeiro", 
                   "country": "Brasil", 
-                  "image": "https://unsplash.com/photos/7F65HDP0-E0",
-                  "countryIcon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg"
+                  "image": "/images/rio-de-janeiro.jpg",
+                  "countryIcon": "/flags/flag-brazil.svg"
               },
               {
                   "id": 8, 
-                  "name": "Montevideo", 
+                  "name": "Montevideu", 
                   "country": "Uruguai", 
-                  "image": "https://unsplash.com/photos/B9YoUi7RYiE",
-                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_Uruguay.svg#/media/Ficheiro:Flag_of_Uruguay.svg"
+                  "image": "/images/montevideu.jpg",
+                  "countryIcon": "/flags/flag-uy.png"
               },
               {
                   "id": 9, 
                   "name": "Buenos Aires", 
                   "country": "Argentina", 
-                  "image": "https://unsplash.com/photos/Wlgn4naRxWQ",
-                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_Argentina.svg#/media/Ficheiro:Flag_of_Argentina.svg"
+                  "image": "/images/buenos-aires.jpg",
+                  "countryIcon": "/flags/argentina.png"
               }
           ]
       },

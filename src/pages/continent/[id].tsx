@@ -91,7 +91,7 @@ export default function Continent({ data }: ContinentProps) {
               borderColor="highlight.highlight.200"
               overflow="hidden"
             >
-              <ChakraImage src={city.image} alt="" h="60%"/>
+              <ChakraImage src={city.image} alt="" w="100%" h="60%" objectFit="cover"/>
               <Flex p="6" flexDir="row" align="center" justify="space-between">
                 <Box>
                   <Box
