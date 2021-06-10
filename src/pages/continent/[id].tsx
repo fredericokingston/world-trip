@@ -1,7 +1,9 @@
 import { Box, Flex, Heading, HStack, Image as ChakraImage, SimpleGrid, Text } from "@chakra-ui/react";
 import { GetStaticPaths, GetStaticProps } from "next";
+import { useRouter } from "next/router";
 import { BannerContinent } from "../../components/BannerContinent";
 import { Header } from '../../components/Header';
+import { Spinner } from "../../components/Spiner";
 import { api } from "../../services/api";
 
 
@@ -26,6 +28,12 @@ interface ContinentProps {
 }
 
 export default function Continent({ data }: ContinentProps) {
+
+  const router = useRouter();
+
+  if (router.isFallback) {
+    return <Spinner />
+  }
 
   return (
     <Flex w="100%" direction="column" align="center" justify="center" marginBottom="8">

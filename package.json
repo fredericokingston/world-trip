@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "server": "json-server --watch db.json --port 3333"
+    "server": "json-server --watch db.json --delay 700 --port 3333"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.6.2",

@@ -1,6 +1,5 @@
-import { Center, Divider, Flex, Heading, Icon, Stack, Text } from "@chakra-ui/react";
+import { Divider, Flex, Heading } from "@chakra-ui/react";
 import { GetStaticProps } from "next";
-import { GiCapitol, GiCongress, GiEarthAmerica, GiMartini, GiSurfBoard } from "react-icons/gi";
 import { Banner } from "../components/Banner";
 import { Header } from "../components/Header";
 import { IconList } from "../components/IconList";

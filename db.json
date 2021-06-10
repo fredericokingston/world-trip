@@ -99,29 +99,29 @@
                 "id": 6, 
                 "name": "Chicago", 
                 "country": "Estados Unidos", 
-                "image": "https://unsplash.com/photos/Nyvq2juw4_o",
-                "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg#/media/Ficheiro:Flag_of_the_United_States.svg"
+                "image": "/images/chicago.jpg",
+                "countryIcon": "/flags/usa.png"
             },
             {
                 "id": 7, 
                 "name": "Toronto", 
                 "country": "Canadá", 
-                "image": "https://unsplash.com/photos/gOq27RHoL3s",
-                "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_Canada_(Pantone).svg#/media/Ficheiro:Flag_of_Canada_(Pantone).svg"
+                "image": "/images/toronto.jpg",
+                "countryIcon": "/flags/canada.png"
             },
             {
                 "id": 8, 
                 "name": "Vancouver", 
                 "country": "Canadá", 
-                "image": "https://unsplash.com/photos/2yN10KHNTzM",
-                "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_Canada_(Pantone).svg#/media/Ficheiro:Flag_of_Canada_(Pantone).svg"
+                "image": "/images/vancouver.jpg",
+                "countryIcon": "/flags/canada.png"
             },
             {
                 "id": 9, 
                 "name": "Los Angeles", 
                 "country": "Estados Unidos", 
-                "image": "https://unsplash.com/photos/cR05i3WgRlQ",
-                "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg#/media/Ficheiro:Flag_of_the_United_States.svg"
+                "image": "/images/los-angeles.jpg",
+                "countryIcon": "/flags/usa.png"
             }
         ]
     },
@@ -139,36 +139,36 @@
                   "id": 10, 
                   "name": "Tóquio", 
                   "country": "Japão", 
-                  "image": "https://unsplash.com/photos/6WoJXG_dJAE",
-                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan.svg#/media/Ficheiro:Flag_of_Japan.svg"
+                  "image": "/images/tokio.jpg",
+                  "countryIcon": "/flags/japan.png"
               },
               {
                   "id": 11, 
                   "name": "Seul", 
                   "country": "Coréia do sul", 
-                  "image": "https://unsplash.com/photos/wepDTOWs4d0",
-                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg#/media/Ficheiro:Flag_of_South_Korea.svg"
+                  "image": "/images/seoul.jpg",
+                  "countryIcon": "/flags/south-korea.png"
               },
               {
                   "id": 12, 
                   "name": "Hong Kong", 
                   "country": "China", 
-                  "image": "https://unsplash.com/photos/qEWEz-U5p8Q",
-                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg#/media/Ficheiro:Flag_of_the_People's_Republic_of_China.svg"
+                  "image": "/images/hong-kong.jpg",
+                  "countryIcon": "/flags/china.png"
               },
               {
                   "id": 13, 
                   "name": "Xangai", 
                   "country": "China", 
-                  "image": "https://unsplash.com/photos/5h_dMuX_7RE",
-                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg#/media/Ficheiro:Flag_of_the_People's_Republic_of_China.svg"
+                  "image": "/images/xangai.jpg",
+                  "countryIcon": "/flags/china.png"
               },
               {
                   "id": 14, 
                   "name": "Nova Dehli", 
                   "country": "India", 
-                  "image": "https://unsplash.com/photos/iJHrggDUzBw",
-                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_India.svg#/media/Ficheiro:Flag_of_India.svg"
+                  "image": "/images/new-dehli.jpg",
+                  "countryIcon": "/flags/india.png"
               }
           ]
       },
@@ -186,22 +186,22 @@
                   "id": 15, 
                   "name": "Cidade do Cabo", 
                   "country": "África do Sul", 
-                  "image": "https://unsplash.com/photos/jtKoHDO-ihg",
-                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa.svg#/media/Ficheiro:Flag_of_South_Africa.svg"
+                  "image": "/images/cape-town.jpg",
+                  "countryIcon": "/flags/south-africa.svg"
               },
               {
                   "id": 16, 
                   "name": "Cairo", 
                   "country": "Egito", 
-                  "image": "https://unsplash.com/photos/pwMbtwA9LRc",
-                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_Egypt.svg#/media/Ficheiro:Flag_of_Egypt.svg"
+                  "image": "/images/cairo.jpg",
+                  "countryIcon": "/flags/egypt.png"
               },
               {
                   "id": 17, 
                   "name": "Johannesburgo", 
                   "country": "África do Sul", 
-                  "image": "https://unsplash.com/photos/f0RvpwF-iXE",
-                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa.svg#/media/Ficheiro:Flag_of_South_Africa.svg"
+                  "image": "/images/johannesburgo.jpg",
+                  "countryIcon": "/flags/south-africa.svg"
               }
           ]
       },
@@ -219,22 +219,22 @@
                   "id": 18, 
                   "name": "Sidney", 
                   "country": "Austrália", 
-                  "image": "https://unsplash.com/photos/DLbCETd599Y",
-                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_Australia_(converted).svg#/media/Ficheiro:Flag_of_Australia_(converted).svg"
+                  "image": "/images/sydney.jpg",
+                  "countryIcon": "/flags/australia.png"
               },
               {
                   "id": 19, 
                   "name": "Camberra", 
                   "country": "Austrália", 
-                  "image": "https://unsplash.com/photos/P-t9yap_20M",
-                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_Australia_(converted).svg#/media/Ficheiro:Flag_of_Australia_(converted).svg"
+                  "image": "/images/camberra.jpg",
+                  "countryIcon": "/flags/australia.png"
               },
               {
                   "id": 20, 
                   "name": "Wellington", 
                   "country": "Nova zelândia", 
-                  "image": "https://unsplash.com/photos/KRtXOMfS4oA",
-                  "countryIcon": "https://commons.wikimedia.org/wiki/File:Flag_of_New_Zealand.svg#/media/Ficheiro:Flag_of_New_Zealand.svg"
+                  "image": "/images/wellington.jpg",
+                  "countryIcon": "/flags/new-zealand.png"
               }
           ]
       }
